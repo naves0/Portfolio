@@ -5,7 +5,8 @@
     border-bottom: 2px solid var(--cor-primaria);
 }
 
-.header i,
+.header #icone-menu-fechado,
+.header #icone-menu-aberto,
 .header .menu-hamburguer {
     display: none;
 }
