@@ -1,0 +1,22 @@
+.footer{
+    text-align: center;
+    padding: 2rem;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.redes-sociais i{
+    font-size: 3rem;
+    color: var(--cor-primaria); 
+}
+
+.redes-sociais i:hover{
+    color: var(--cor-secundaria);
+    transition: all 0.2s ease-out;
+}

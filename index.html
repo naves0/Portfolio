@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | João Victor - Desenvolvedor Front-End</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/globais.css">
+    <link rel="stylesheet" href="./src/css/secoes/header.css">
+    <link rel="stylesheet" href="./src/css/secoes/home.css">
+    <link rel="stylesheet" href="./src/css/secoes/sobre.css">
+    <link rel="stylesheet" href="./src/css/secoes/habilidades.css">
+    <link rel="stylesheet" href="./src/css/secoes/projetos.css">
+    <link rel="stylesheet" href="./src/css/secoes/footer.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-mim">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars" id="icone-menu-fechado"></i>
+        <i class="fa-solid fa-x escondido" id="icone-menu-aberto"></i>
+        <div class="menu-hamburguer" id="menu-hamburguer">
+            <ul>
+                <li><a href="#home" class="opcoes">Home</a></li>
+                <li><a href="#sobre-mim" class="opcoes">Sobre</a></li>
+                <li><a href="#habilidades" class="opcoes">Habilidades</a></li>
+                <li><a href="#projetos" class="opcoes">Projetos</a></li>
+                <li><a href="#contatos" class="opcoes">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="home-section" id="home">
+        <div class="info-home">
+            <p>Olá, eu sou o</p>
+            <span class="nome-destaque">João Victor A. Naves</span>
+            <p class="funcao">Desenvolvedor Front-End</p>
+            <a href="./src/curriculo/João Victor Aguiar Naves.pdf" class="btn-curriculo" download>Download CV</a>
+        </div>
+        <picture>
+            <source srcset="./src/images/foto-perfil-mobile.png" media="(max-width: 411px)">
+            <img src="./src/images/foto-perfil.png" alt="Foto de perfil">
+        </picture>
+    </section>
+    <section class="sobre-mim-section" id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <p>Olá! Me chamo João Victor Aguiar Naves e sou um desenvolvedor frontend em formação! Gosto MUITO da área de
+            tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+            Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi. 😁
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜</p>
+    </section>
+    <section class="habilidades-section" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML 5</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS 3</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-react"></i>
+                <p>React.js</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-github"></i>
+                <p>GitHub</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-git-alt"></i>
+                <p>Git</p>
+            </li>
+            <li>
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma</p>
+            </li>
+        </ul>
+    </section>
+    <section class="projetos-section" id="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos-slide">
+            <i class="fa-solid fa-angle-left" id="seta-voltar"></i>
+            <ul class="todos-projetos">
+                <li class="projeto selecionado">
+                    <div class="info-projeto">
+                        <h3>Landing Page Super Mario Bros - O Filme</h3>
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <a href="https://naves0.github.io/projeto-mario/">🔗 Ver no GitHub Pages</a>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/mario-230x135.png" media="(min-width: 360px)">
+                        <source srcset="./src/images/mario-391x230.png" media="(min-width: 768px)">
+                        <source srcset="./src/images/mario-1920x1080.png" media="(min-width: 1800px)">
+                        <img src="./src/images/mario-1440x1024.png" alt="imagem do projeto">
+                    </picture>
+                </li>
+                <li class="projeto">
+                    <div class="info-projeto">
+                        <h3>Lista de Pokemon</h3>
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <a href="https://naves0.github.io/LISTA-POKEMON-HTML-CSS-JS/">🔗 Ver no GitHub Pages</a>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/lista-pokemon-230x135.png" media="(min-width: 360px)">
+                        <source srcset="./src/images/lista-pokemon-391x230.png" media="(min-width: 768px)">
+                        <source srcset="./src/images/lista-pokemon-1920x1080.png" media="(min-width: 1800px)">
+                        <img src="./src/images/lista-pokemon-1440x1024.png" alt="imagem do projeto">
+                    </picture>
+                </li>
+                <li class="projeto">
+                    <div class="info-projeto">
+                        <h3>Gerador de Conselhos</h3>
+                        <p>Projeto feito usando HTML, CSS e JavaScript, o projeto também consome uma API para gerar os
+                            conselhos aleatóriamente</p>
+                        <a href="https://naves0.github.io/Gerador-de-Conselhos/">🔗 Ver no GitHub Pages</a>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/gerador-de-conselhos-230x135.png" media="(min-width: 360px)">
+                        <source srcset="./src/images/gerador-de-conselhos-391x230.png" media="(min-width: 768px)">
+                        <source srcset="./src/images/gerador-de-conselhos-1920x1080.png" media="(min-width: 1800px)">
+                        <img src="./src/images/gerador-de-conselhos-1440x1024.png" alt="imagem do projeto">
+                    </picture>
+                </li>
+                <li class="projeto">
+                    <div class="info-projeto">
+                        <h3>Buscador de Usuário GitHub</h3>
+                        <p>Projeto feito usando HTML, CSS e JavaScript, o projeto também consome uma API do GitHub para
+                            trazer os dados do usuário solicitado</p>
+                        <a href="https://naves0.github.io/Fetch-GitHub-API/"🔗 >Ver no GitHub Pages</a>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/usuario-github-230x135.png" media="(min-width: 360px)">
+                        <source srcset="./src/images/usuario-github-391x230.png" media="(min-width: 768px)">
+                        <source srcset="./src/images/usuario-github-1920x1080.png" media="(min-width: 1800px)">
+                        <img src="./src/images/usuario-github-1440x1024.png" alt="imagem do projeto">
+                    </picture>
+                </li>
+                <li class="projeto">
+                    <div class="info-projeto">
+                        <h3>Formulário</h3>
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <a href="https://naves0.github.io/Formulario-Quest-DevQuest/">🔗 Ver no GitHub Pages</a>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/formulario-230x135.png" media="(min-width: 360px)">
+                        <source srcset="./src/images/formulario-391x230.png" media="(min-width: 768px)">
+                        <source srcset="./src/images/formulario-1920x1080.png" media="(min-width: 1800px)">
+                        <img src="./src/images/formulario-1440x1024.png" alt="imagem do projeto">
+                    </picture>
+                </li>
+            </ul>
+            <i class="fa-solid fa-angle-right" id="seta-avancar"></i>
+        </div>
+    </section>
+    <footer class="footer" id="contatos">
+        <h2>Contato</h2>
+        <div class="redes-sociais">
+            <a href="#" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://github.com/naves0" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/joaovictornavesdev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+    <script src="./src/js/slider-projetos.js"></script>
+    <script src="./src/js/menu-hamburguer.js"></script>
+</body>
+
+</html>

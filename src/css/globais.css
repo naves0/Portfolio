@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+    font-weight: 300;
+    font-family: 'arvo', 'sans-serif';
+    color: #FFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo-secoes-header);
+}
+
+header{
+    background-color: var(--cor-de-fundo-secoes-header);
+}
+
+footer {
+    background-color: var(--cor-de-fundo-footer);
+}
+
+.btn-curriculo {
+    background-color: var(--cor-primaria);
+    font-weight: 900;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+}
+
+.btn-curriculo:hover{
+    background-color: var(--cor-secundaria);
+    transition: all 0.2s ease-out;
+}
+
+h2 {
+    font-size: var(--fonte-grande);
+}

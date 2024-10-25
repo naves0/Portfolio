@@ -1,0 +1,28 @@
+.habilidades-section{
+    text-align: center;
+    padding: 0 10rem 10rem 10rem;
+}
+
+.habilidades-section h2{
+    margin-bottom: 8rem;
+}
+
+.habilidades-section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.habilidades-section ul li{
+    text-align: center;
+}
+
+.habilidades-section ul li i{
+    font-size: 11rem;
+    color: var(--cor-primaria);
+    margin-bottom: 1rem;
+}
+
+.habilidades-section ul li p{
+    font-size: var(--fonte-media);
+}

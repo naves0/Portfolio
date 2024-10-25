@@ -1,0 +1,65 @@
+.projetos-section {
+    padding: 0 10rem 10rem 10rem;
+    text-align: center;
+}
+
+.projetos-section .projetos-slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projetos-section .projetos-slide i{
+    font-size: 2rem;
+}
+
+.projetos-section .projetos-slide i:hover{
+    cursor: pointer;
+}
+
+.opacity{
+    opacity: 50%;
+}
+
+.projetos-section h2{
+    margin-bottom: 7rem;
+}
+
+.projetos-section .todos-projetos{
+    margin: 0 6rem 0 6rem;
+}
+
+.projetos-section .todos-projetos .projeto{
+    display: none;
+}
+
+.projetos-section .todos-projetos .projeto.selecionado{
+    display: flex;
+    align-items: center;
+}
+
+.todos-projetos .projeto .info-projeto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    padding-right: 5rem;
+    text-align: left;
+}
+
+.todos-projetos .projeto .info-projeto h3{
+    font-size: var(--fonte-grande);
+}
+
+.todos-projetos .projeto .info-projeto p{
+    font-size: var(--fonte-media);
+}
+
+.todos-projetos .projeto .info-projeto a{
+    color: var(--cor-primaria);
+    font-size: var(--fonte-media-pequena);
+}
+
+.todos-projetos .projeto .info-projeto a:hover{
+    color: var(--cor-secundaria);
+    transition: all 0.2s ease-out;
+}

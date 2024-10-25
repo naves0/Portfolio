@@ -1,0 +1,16 @@
+:root {
+    --cor-de-fundo-secoes-header: #1E1E1E;
+    --cor-de-fundo-footer: #5E5E5E;
+    --cor-primaria: #3AF64C;
+    --cor-secundaria: #76FF9C;
+}
+
+:root {
+    --fonte-extra-grande: 4rem;
+    --fonte-grande: 3rem;
+    --fonte-media: 2rem;
+    --fonte-media-pequena: 1.5rem;
+    --font-mob-grande: 1.5rem;
+    --font-mob-media: 1.2rem;
+    --font-mob-pequena: 1rem;
+}

@@ -1,0 +1,24 @@
+.home-section {
+    padding: 20rem 10rem 12rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-home p {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 900;
+}
+
+.info-home .nome-destaque {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 900;
+    color: var(--cor-primaria);
+}
+
+.info-home .funcao {
+    font-size: var(--fonte-media);
+    color: #D3D3D3;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
