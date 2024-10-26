@@ -63,7 +63,7 @@
         position: fixed;
     }
 
-    .header #icone-menu-fechado {
+    .header i.aberto {
         display: block;
     }
 

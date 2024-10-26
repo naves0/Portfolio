@@ -21,10 +21,12 @@ function abrirMenu() {
     menu.classList.add("open");
     menuFechado.classList.add("escondido");
     menuAberto.classList.remove("escondido");
+    menuAberto.classList.add("aberto");
 };
 
 function fecharMenu(){
     menu.classList.remove("open");
-    menuFechado.classList.remove("escondido");
+    menuAberto.classList.remove("aberto");
     menuAberto.classList.add("escondido");
-}
+    menuFechado.classList.remove("escondido");
+};
